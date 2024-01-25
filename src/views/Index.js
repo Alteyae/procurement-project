@@ -75,7 +75,7 @@ const Index = (props) => {
                     <h6 className="text-uppercase text-light ls-1 mb-1">
                       Overview
                     </h6>
-                    <h2 className="text-white mb-0">Sales value</h2>
+                    <h2 className="text-white mb-0">Properties Orders</h2>
                   </div>
                   <div className="col">
                     <Nav className="justify-content-end" pills>
@@ -128,7 +128,7 @@ const Index = (props) => {
                     <h6 className="text-uppercase text-muted ls-1 mb-1">
                       Performance
                     </h6>
-                    <h2 className="mb-0">Total orders</h2>
+                    <h2 className="mb-0">Order Statuses</h2>
                   </div>
                 </Row>
               </CardHeader>
@@ -150,7 +150,7 @@ const Index = (props) => {
               <CardHeader className="border-0">
                 <Row className="align-items-center">
                   <div className="col">
-                    <h3 className="mb-0">Page visits</h3>
+                    <h3 className="mb-0">Users</h3>
                   </div>
                   <div className="col text-right">
                     <Button
@@ -167,10 +167,10 @@ const Index = (props) => {
               <Table className="align-items-center table-flush" responsive>
                 <thead className="thead-light">
                   <tr>
-                    <th scope="col">Page name</th>
-                    <th scope="col">Visitors</th>
-                    <th scope="col">Unique users</th>
-                    <th scope="col">Bounce rate</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Property</th>
+                    <th scope="col">Order</th>
+                    <th scope="col">Invoice</th>
                   </tr>
                 </thead>
                 <tbody>
